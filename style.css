@@ -1,14 +1,24 @@
 #clock {
+  postion: relative;
+}
+
+#face{
 }
 
 #clock img {
+  position: absolute;
 }
 
 #hour {
+  border:1px dashed blue;
 }
 
 #minute {
+  border:1px dashed green;
+  transform: rotate(0.1deg);
 }
 
 #second {
+  border:1px dotted red;
+  transform: rotate(6deg);
 }
